@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2EFE1A1CFF1E4100F26CC3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EFE191CFF1E4100F26CC3 /* HistoryViewController.swift */; };
+		3C6C65F81D001C460021FD50 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C65F71D001C460021FD50 /* HistoryTableViewCell.swift */; };
+		3C6C65FA1D00310C0021FD50 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C65F91D00310C0021FD50 /* MainViewController.swift */; };
+		3C6C65FC1D005E490021FD50 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C65FB1D005E490021FD50 /* Helpers.swift */; };
+		3C87CFB41CFC83D400933F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C87CFB31CFC83D400933F3F /* AppDelegate.swift */; };
+		3C87CFB91CFC83D400933F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C87CFB71CFC83D400933F3F /* Main.storyboard */; };
+		3C87CFBB1CFC83D400933F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C87CFBA1CFC83D400933F3F /* Assets.xcassets */; };
+		3C87CFBE1CFC83D400933F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C87CFBC1CFC83D400933F3F /* LaunchScreen.storyboard */; };
+		3C87CFC71CFC840500933F3F /* P2PKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C87CFC61CFC840500933F3F /* P2PKit.framework */; };
+		3C87CFC91CFC840C00933F3F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C87CFC81CFC840C00933F3F /* CoreBluetooth.framework */; };
+		3C87CFCD1CFC841500933F3F /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C87CFCC1CFC841500933F3F /* libicucore.tbd */; };
+		3C87CFCF1CFC841B00933F3F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C87CFCE1CFC841B00933F3F /* CFNetwork.framework */; };
+		3C87CFD11CFC841F00933F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C87CFD01CFC841F00933F3F /* Foundation.framework */; };
+		3C87CFD31CFC842400933F3F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C87CFD21CFC842400933F3F /* Security.framework */; };
+		3C9B75761CFC874000A7C781 /* P2PKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B75751CFC874000A7C781 /* P2PKitController.swift */; };
+		3C9B75781CFC875D00A7C781 /* GuestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B75771CFC875D00A7C781 /* GuestManager.swift */; };
+		3C9B757A1CFC876A00A7C781 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B75791CFC876A00A7C781 /* Guest.swift */; };
+		3C9B757C1CFC8C6900A7C781 /* OperatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B757B1CFC8C6900A7C781 /* OperatorController.swift */; };
+		3C9B757F1CFD948F00A7C781 /* CheckinTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B757E1CFD948F00A7C781 /* CheckinTransactionViewController.swift */; };
+		3C9B758C1CFDDB9500A7C781 /* NearbyPeersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B758B1CFDDB9500A7C781 /* NearbyPeersViewController.swift */; };
+		3C9B75901CFDDFDF00A7C781 /* AdvertiserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B758E1CFDDFDF00A7C781 /* AdvertiserViewController.swift */; };
+		3C9B75921CFDE07900A7C781 /* DLEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B75831CFDDB7400A7C781 /* DLEdge.m */; };
+		3C9B75931CFDE7E000A7C781 /* DLGraphScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B75871CFDDB7400A7C781 /* DLGraphScene.m */; };
+		3C9B75941CFDE7E300A7C781 /* DLForcedGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B75851CFDDB7400A7C781 /* DLForcedGraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A2EFE191CFF1E4100F26CC3 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		3C6C65F71D001C460021FD50 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		3C6C65F91D00310C0021FD50 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3C6C65FB1D005E490021FD50 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		3C87CFB01CFC83D400933F3F /* p2pkit-checkin-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "p2pkit-checkin-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C87CFB31CFC83D400933F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C87CFB81CFC83D400933F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C87CFBA1CFC83D400933F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C87CFBD1CFC83D400933F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C87CFBF1CFC83D400933F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C87CFC61CFC840500933F3F /* P2PKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P2PKit.framework; sourceTree = "<group>"; };
+		3C87CFC81CFC840C00933F3F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3C87CFCA1CFC841100933F3F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3C87CFCC1CFC841500933F3F /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		3C87CFCE1CFC841B00933F3F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3C87CFD01CFC841F00933F3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C87CFD21CFC842400933F3F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3C87CFD51CFC844E00933F3F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3C9B75751CFC874000A7C781 /* P2PKitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2PKitController.swift; sourceTree = "<group>"; };
+		3C9B75771CFC875D00A7C781 /* GuestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestManager.swift; sourceTree = "<group>"; };
+		3C9B75791CFC876A00A7C781 /* Guest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		3C9B757B1CFC8C6900A7C781 /* OperatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorController.swift; sourceTree = "<group>"; };
+		3C9B757E1CFD948F00A7C781 /* CheckinTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinTransactionViewController.swift; sourceTree = "<group>"; };
+		3C9B75821CFDDB7400A7C781 /* DLEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLEdge.h; sourceTree = "<group>"; };
+		3C9B75831CFDDB7400A7C781 /* DLEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLEdge.m; sourceTree = "<group>"; };
+		3C9B75841CFDDB7400A7C781 /* DLForcedGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLForcedGraphView.h; sourceTree = "<group>"; };
+		3C9B75851CFDDB7400A7C781 /* DLForcedGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLForcedGraphView.m; sourceTree = "<group>"; };
+		3C9B75861CFDDB7400A7C781 /* DLGraphScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLGraphScene.h; sourceTree = "<group>"; };
+		3C9B75871CFDDB7400A7C781 /* DLGraphScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGraphScene.m; sourceTree = "<group>"; };
+		3C9B758B1CFDDB9500A7C781 /* NearbyPeersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyPeersViewController.swift; sourceTree = "<group>"; };
+		3C9B758E1CFDDFDF00A7C781 /* AdvertiserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertiserViewController.swift; sourceTree = "<group>"; };
+		3CFE26F81E8028E4008BBC2D /* Third_party_licenses.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Third_party_licenses.txt; path = "p2pkit-checkin-ios/Third_party_licenses.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C87CFAD1CFC83D400933F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C87CFC71CFC840500933F3F /* P2PKit.framework in Frameworks */,
+				3C87CFD31CFC842400933F3F /* Security.framework in Frameworks */,
+				3C87CFD11CFC841F00933F3F /* Foundation.framework in Frameworks */,
+				3C87CFCF1CFC841B00933F3F /* CFNetwork.framework in Frameworks */,
+				3C87CFCD1CFC841500933F3F /* libicucore.tbd in Frameworks */,
+				3C87CFC91CFC840C00933F3F /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C87CFA71CFC83D400933F3F = {
+			isa = PBXGroup;
+			children = (
+				3CFE26F81E8028E4008BBC2D /* Third_party_licenses.txt */,
+				3C87CFB21CFC83D400933F3F /* p2pkit-checkin-ios */,
+				3C87CFC51CFC83E100933F3F /* Frameworks */,
+				3C87CFB11CFC83D400933F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C87CFB11CFC83D400933F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C87CFB01CFC83D400933F3F /* p2pkit-checkin-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C87CFB21CFC83D400933F3F /* p2pkit-checkin-ios */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B75801CFDDB7400A7C781 /* 3rdParty */,
+				3C87CFB31CFC83D400933F3F /* AppDelegate.swift */,
+				3C6C65F91D00310C0021FD50 /* MainViewController.swift */,
+				3C9B758E1CFDDFDF00A7C781 /* AdvertiserViewController.swift */,
+				3C9B758B1CFDDB9500A7C781 /* NearbyPeersViewController.swift */,
+				3C9B757E1CFD948F00A7C781 /* CheckinTransactionViewController.swift */,
+				1A2EFE191CFF1E4100F26CC3 /* HistoryViewController.swift */,
+				3C6C65F71D001C460021FD50 /* HistoryTableViewCell.swift */,
+				3C9B75951CFEBCBB00A7C781 /* UI */,
+				3C9B758D1CFDDBB100A7C781 /* Controller */,
+				3C9B757D1CFC8C6F00A7C781 /* Model */,
+				3C87CFD41CFC843400933F3F /* Supporting Files */,
+			);
+			path = "p2pkit-checkin-ios";
+			sourceTree = "<group>";
+		};
+		3C87CFC51CFC83E100933F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C87CFD21CFC842400933F3F /* Security.framework */,
+				3C87CFD01CFC841F00933F3F /* Foundation.framework */,
+				3C87CFCE1CFC841B00933F3F /* CFNetwork.framework */,
+				3C87CFCC1CFC841500933F3F /* libicucore.tbd */,
+				3C87CFCA1CFC841100933F3F /* CoreLocation.framework */,
+				3C87CFC81CFC840C00933F3F /* CoreBluetooth.framework */,
+				3C87CFC61CFC840500933F3F /* P2PKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C87CFD41CFC843400933F3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C6C65FB1D005E490021FD50 /* Helpers.swift */,
+				3C87CFBF1CFC83D400933F3F /* Info.plist */,
+				3C87CFBA1CFC83D400933F3F /* Assets.xcassets */,
+				3C87CFD51CFC844E00933F3F /* Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C9B757D1CFC8C6F00A7C781 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B75771CFC875D00A7C781 /* GuestManager.swift */,
+				3C9B75791CFC876A00A7C781 /* Guest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3C9B75801CFDDB7400A7C781 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B75811CFDDB7400A7C781 /* DLGraphView */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		3C9B75811CFDDB7400A7C781 /* DLGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B75821CFDDB7400A7C781 /* DLEdge.h */,
+				3C9B75831CFDDB7400A7C781 /* DLEdge.m */,
+				3C9B75841CFDDB7400A7C781 /* DLForcedGraphView.h */,
+				3C9B75851CFDDB7400A7C781 /* DLForcedGraphView.m */,
+				3C9B75861CFDDB7400A7C781 /* DLGraphScene.h */,
+				3C9B75871CFDDB7400A7C781 /* DLGraphScene.m */,
+			);
+			path = DLGraphView;
+			sourceTree = "<group>";
+		};
+		3C9B758D1CFDDBB100A7C781 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B757B1CFC8C6900A7C781 /* OperatorController.swift */,
+				3C9B75751CFC874000A7C781 /* P2PKitController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3C9B75951CFEBCBB00A7C781 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3C87CFB71CFC83D400933F3F /* Main.storyboard */,
+				3C87CFBC1CFC83D400933F3F /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C87CFAF1CFC83D400933F3F /* p2pkit-checkin-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C87CFC21CFC83D400933F3F /* Build configuration list for PBXNativeTarget "p2pkit-checkin-ios" */;
+			buildPhases = (
+				3C87CFAC1CFC83D400933F3F /* Sources */,
+				3C87CFAD1CFC83D400933F3F /* Frameworks */,
+				3C87CFAE1CFC83D400933F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "p2pkit-checkin-ios";
+			productName = CheckMeIn;
+			productReference = 3C87CFB01CFC83D400933F3F /* p2pkit-checkin-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C87CFA81CFC83D400933F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Uepaa AG";
+				TargetAttributes = {
+					3C87CFAF1CFC83D400933F3F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N5DJ9DD55K;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3C87CFAB1CFC83D400933F3F /* Build configuration list for PBXProject "p2pkit-checkin-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C87CFA71CFC83D400933F3F;
+			productRefGroup = 3C87CFB11CFC83D400933F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C87CFAF1CFC83D400933F3F /* p2pkit-checkin-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C87CFAE1CFC83D400933F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C87CFBE1CFC83D400933F3F /* LaunchScreen.storyboard in Resources */,
+				3C87CFBB1CFC83D400933F3F /* Assets.xcassets in Resources */,
+				3C87CFB91CFC83D400933F3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C87CFAC1CFC83D400933F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9B757C1CFC8C6900A7C781 /* OperatorController.swift in Sources */,
+				3C9B757A1CFC876A00A7C781 /* Guest.swift in Sources */,
+				3C6C65F81D001C460021FD50 /* HistoryTableViewCell.swift in Sources */,
+				3C9B75781CFC875D00A7C781 /* GuestManager.swift in Sources */,
+				3C9B75921CFDE07900A7C781 /* DLEdge.m in Sources */,
+				3C9B757F1CFD948F00A7C781 /* CheckinTransactionViewController.swift in Sources */,
+				3C9B75941CFDE7E300A7C781 /* DLForcedGraphView.m in Sources */,
+				3C6C65FA1D00310C0021FD50 /* MainViewController.swift in Sources */,
+				3C9B758C1CFDDB9500A7C781 /* NearbyPeersViewController.swift in Sources */,
+				3C9B75761CFC874000A7C781 /* P2PKitController.swift in Sources */,
+				1A2EFE1A1CFF1E4100F26CC3 /* HistoryViewController.swift in Sources */,
+				3C9B75931CFDE7E000A7C781 /* DLGraphScene.m in Sources */,
+				3C9B75901CFDDFDF00A7C781 /* AdvertiserViewController.swift in Sources */,
+				3C6C65FC1D005E490021FD50 /* Helpers.swift in Sources */,
+				3C87CFB41CFC83D400933F3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C87CFB71CFC83D400933F3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C87CFB81CFC83D400933F3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C87CFBC1CFC83D400933F3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C87CFBD1CFC83D400933F3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C87CFC01CFC83D400933F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/$PROJECT/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C87CFC11CFC83D400933F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/$PROJECT/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C87CFC31CFC83D400933F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = N5DJ9DD55K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/p2pkit-checkin-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.uepaa.p2pkit-checkin-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/$PROJECT/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C87CFC41CFC83D400933F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = N5DJ9DD55K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/p2pkit-checkin-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.uepaa.p2pkit-checkin-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/$PROJECT/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C87CFAB1CFC83D400933F3F /* Build configuration list for PBXProject "p2pkit-checkin-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C87CFC01CFC83D400933F3F /* Debug */,
+				3C87CFC11CFC83D400933F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C87CFC21CFC83D400933F3F /* Build configuration list for PBXNativeTarget "p2pkit-checkin-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C87CFC31CFC83D400933F3F /* Debug */,
+				3C87CFC41CFC83D400933F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C87CFA81CFC83D400933F3F /* Project object */;
+}
