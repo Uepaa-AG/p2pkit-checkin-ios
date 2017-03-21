@@ -2,6 +2,8 @@
 
 A simple demo app emulating a check-in-like functionality.
 
+![p2pkit.io Check-me-in](p2pkit-checkin-ios.gif)
+
 ## Get Started
 
 1. Using p2pkit requires an application key, start by creating a p2pkit account here:
